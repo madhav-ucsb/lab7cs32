@@ -8,7 +8,8 @@ BINARIES=testIceCreamOrder1 testIceCreamOrder2 testIceCreamOrder3 testIceCreamOr
 
 all: ${BINARIES}
 
-testIceCreamOrder1: testIceCreamOrder1.o IceCreamOrder.o IceCreamItem.o CustomItem.o PreMadeItem.o tddFuncs.o
+
+testIceCreamOrder1: testIceCreamOrder1.o IceCreamOrder.o IceCreamItem.o CustomItem.o tddFuncs.o
 	${CXX} $^ -o $@
 
 testIceCreamOrder2: testIceCreamOrder2.o IceCreamOrder.o IceCreamItem.o CustomItem.o PreMadeItem.o tddFuncs.o
