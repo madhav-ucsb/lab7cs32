@@ -84,7 +84,7 @@ public:
   // }
   virtual ~PreMadeItem()
   {
-    int a = 0;
+    return;
   }
 protected:
 	double price;

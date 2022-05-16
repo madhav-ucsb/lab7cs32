@@ -66,11 +66,11 @@ std::string CustomItem::composeItem()
     totalTops = totalTops + 1;
 
 
-    if (topping.at(topping.size() -1 ) != *"s")
-    {
-        topping = topping + "s";
+    // if (topping.at(topping.size() -1 ) != *"s")
+    // {
+    //     topping = topping + "s";
       
-    }
+    // }
 
 
 
